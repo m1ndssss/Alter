@@ -1,0 +1,31 @@
+{
+    "Show": true,
+    "Dependencies": [],
+    "Components": [
+        {
+            "$type": "NetCodeConversionSettings, Unity.NetCode.Authoring.Hybrid",
+            "Target": 1
+        },
+        {
+            "$type": "Unity.Build.Classic.EnableHeadlessMode, Unity.Build.Classic"
+        },
+        {
+            "$type": "Unity.Build.Common.RunSettings, Unity.Build",
+            "RedirectOutput": true,
+            "BatchMode": true,
+            "NoGraphics": true,
+            "ExtraArguments": []
+        },
+        {
+            "$type": "Unity.Build.Common.SceneList, Unity.Build",
+            "$version": 1,
+            "BuildCurrentScene": false,
+            "SceneInfos": [
+                {
+                    "Scene": "GlobalObjectId_V1-1-892799c21036d25d4a8675bbb416ec6c-102900000-0",
+                    "AutoLoad": false
+                }
+            ]
+        }
+    ]
+}

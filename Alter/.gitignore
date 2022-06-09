@@ -1,0 +1,14 @@
+# Unity-generated files
+*.csproj
+*.sln
+/Assets/SceneDependencyCache/
+/Assets/SceneDependencyCache.meta
+/Library/
+/Logs/
+/Temp/
+/UserSettings/
+
+# Build artifacts
+/Build/
+/Builds/
+/obj/
